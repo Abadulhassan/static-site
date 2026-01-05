@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-  color: #fff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: bold;
 }
@@ -38,14 +38,14 @@ body {
 }
 
 .nav-links a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
   height: 80vh;
   background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,42 +56,43 @@ body {
 
 .hero h1 {
   font-size: 48px;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 .hero p {
   font-size: 18px;
-  max-width: 600px;
+  max-width: 650px;
   margin-bottom: 30px;
 }
 
 .btn {
-  background: #fff;
+  background: #ffffff;
   color: #1e40af;
-  padding: 12px 25px;
+  padding: 12px 26px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 6px;
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
   background: #e5e7eb;
 }
 
-/* Features */
+/* Features Section */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 60px 10%;
+  gap: 30px;
+  padding: 70px 10%;
 }
 
 .card {
-  background: #fff;
-  paddinhttps://github.com/Abadulhassan/static-site/blob/main/style.cssg: 30px;
+  background: #ffffff;
+  padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
   text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
 
 .card h3 {
@@ -99,10 +100,56 @@ body {
 }
 
 /* Footer */
-footer {
+.footer {
   background: #1f2933;
+  color: #d1d5db;
+  margin-top: 80px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 60px 10%;
+}
+
+.footer h3,
+.footer h4 {
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
   color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-tech p {
+  font-size: 14px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #374151;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  font-size: 13px;
+  color: #9ca3af;
 }
